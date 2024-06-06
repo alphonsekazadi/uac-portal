@@ -33,7 +33,7 @@ body{
 }
 .navbar{
     display: grid;
-    grid-template-rows: repeat(auto-fit,minmax(80px,1.6));
+    grid-template-rows: repeat(auto-fit,minmax(50px,1.6));
     background-color: rgb(0, 0, 64);
 }
 .navbar div ul{
@@ -42,7 +42,7 @@ body{
     display: inline-block;
 }
 .navbar div ul li{
-    padding: 3px;
+    padding: 5px;
 }
 .navbar div ul li a{
     text-decoration: none;
