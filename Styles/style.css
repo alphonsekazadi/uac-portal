@@ -42,7 +42,7 @@ body{
     display: inline-block;
 }
 .navbar div ul li{
-    padding: 5px;
+    padding: 3px;
 }
 .navbar div ul li a{
     text-decoration: none;
