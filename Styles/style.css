@@ -20,13 +20,13 @@ body{
 }
 .hero .deux{
     text-align: center;
-    font-size: 22px;
-    grid-column: 2/4;
+    font-size: 18px;
+    grid-colum: 2/4;
 }
 .hero .deux p{
     color: orange;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 17px;
 }
 .hero .deux h1{
     color: white;
