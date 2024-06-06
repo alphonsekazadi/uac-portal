@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    color: aliceblue;
+}
+.hero{
+    display: grid;
+    background-image: url('../img/ban.jpeg');
+    background-size: cover;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    background-repeat: no-repeat;
+    align-items: center;
+    padding: 20px;
+}
+.hero div img{
+    width: 15%;
+}
+.hero .deux{
+    text-align: center;
+    font-size: 22px;
+    grid-column: 2/4;
+}
+.hero .deux p{
+    color: orange;
+    font-weight: bold;
+    font-size: 22px;
+}
+.hero .deux h1{
+    color: white;
+}
+.navbar{
+    display: grid;
+    grid-template-rows: repeat(auto-fit,minmax(80px,1.6));
+    background-color: rgb(0, 0, 64);
+}
+.navbar div ul{
+    list-style-type: none;
+    
+    display: inline-block;
+}
+.navbar div ul li{
+    padding: 5px;
+}
+.navbar div ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar div ul li a:hover{
+    border-bottom: 2px solid orange;
+    border-radius: 5px;
+}
+h1{
+    color: rgb(0, 0, 64);
+}
+.cont{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 2px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+.cont .other{
+    display: grid;
+    grid-template-rows: repeat(auto-fit,minmax(200px,1.6em));
+}
+.cont .other .side p{
+    font-size: 22px;
+    text-align: justify;
+    padding: 20px;
+}
+.cont h2{
+    color: rgb(0, 0, 64);
+}
+.prod{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 10px;
+    padding: 10px 8% 10px 8%;
+}
+.line{
+    display: grid;
+    grid-template-rows: repeat(auto-fit,minmax(80px,1.6em));
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 0, 64);
+}
+.prod img{
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+.prod img:hover{
+    width: 80%;
+    box-shadow: 2px 3px 2px black;
+}
+.foot{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    background-color: rgb(15, 15, 15);
+    color: azure;
+    padding: 20px;
+    text-align: center;
+}
+.foot h2{
+    color: orange;
+}
+.foot div p{
+    text-align: center;
+    font-size: 22px;
+}
